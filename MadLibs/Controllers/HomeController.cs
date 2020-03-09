@@ -13,12 +13,11 @@ namespace MadLib.Controllers
     public string Goodbye() { return "Goodbye friend."; }
 
     [Route("/")]
-     public ActionResult Letter() {
-      MadLibVariable newMadLib = new MadLibVariable();
-      return View(newMadLib);
+    public ActionResult SplashPage() {
+    return View();
     }
-    [Route("/form")]
-    public ActionResult Form() { return View(); }
+    [Route("/form1")]
+    public ActionResult Form1() { return View(); }
 
     [Route("/madlib")]
     public ActionResult MadLib(string person1, string person2, string animal, string exclamation, string verb, string noun)
