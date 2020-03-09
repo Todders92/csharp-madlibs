@@ -18,6 +18,7 @@ namespace MadLib.Models
     public string Adjective5 { get; set; }
     public string Verb1 { get; set; }
     public string Verb2 { get; set; }
+    public string Verb3 { get; set; }
     public string Adverb1 { get; set; }
   }
 }
